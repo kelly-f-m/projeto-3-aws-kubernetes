@@ -90,7 +90,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 
 <br>
 
-foto aqui
+![as-is-infra](/images/as-is_infra.png)
 
 <br>
 
@@ -229,7 +229,7 @@ foto aqui
 
 <br>
 
-foto aqui
+![kubernetes-infra](/images/kubernetes_infra.png)
 
 <br>
 
