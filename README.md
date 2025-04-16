@@ -1,15 +1,17 @@
-# Projeto de Migração com AWS & Kubernetes
+<h1 align="center">Atividade Prática 3 | Compass UOL</br>
+Projeto de Migração com AWS & Kubernetes</h1>
 
-Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da Compass UOL
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,kubernetes" />
+  </a>
+</p>
 
-<br>
-
-[![My Skills](https://skillicons.dev/icons?i=aws,kubernetes)](https://skillicons.dev)
-<br>
+</br>
 
 ## Tecnologias:
-<li> AWS </li>
-<li> Kubernetes </li>
+- AWS
+- Kubernetes
 
 <br>
 
@@ -27,26 +29,22 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ## Índice:
-- [Projeto de Migração com AWS \& Kubernetes](#projeto-de-migração-com-aws--kubernetes)
-  - [Tecnologias:](#tecnologias)
-  - [Objetivos:](#objetivos)
-  - [Índice:](#índice)
-  - [Passo 1. Migração Lift-and-Shift](#passo-1-migração-lift-and-shift)
-    - [I. Atividades Necessárias para a Migração](#i-atividades-necessárias-para-a-migração)
-    - [II. Ferramentas Utilizadas](#ii-ferramentas-utilizadas)
-    - [III. Diagrama da Infraestrutura na AWS](#iii-diagrama-da-infraestrutura-na-aws)
-    - [IV. Requisitos de Segurança](#iv-requisitos-de-segurança)
-    - [V. Processo de Backup](#v-processo-de-backup)
-    - [VI. Custo da Infraestrutura na AWS](#vi-custo-da-infraestrutura-na-aws)
-  - [Passo 2. Modernização com Kubernetes](#passo-2-modernização-com-kubernetes)
-    - [I. Atividades Necessárias para a Migração](#i-atividades-necessárias-para-a-migração-1)
-    - [II. Ferramentas Utilizadas](#ii-ferramentas-utilizadas-1)
-    - [III. Diagrama da infraestrutura na AWS](#iii-diagrama-da-infraestrutura-na-aws-1)
-    - [IV. Requisitos de Segurança](#iv-requisitos-de-segurança-1)
-    - [V. Processo de Backup](#v-processo-de-backup-1)
-    - [VI. Custo da Infraestrutura na AWS](#vi-custo-da-infraestrutura-na-aws-1)
-  - [Conclusão](#conclusão)
-    - [Benefícios Esperados](#benefícios-esperados)
+- [Passo 1. Migração Lift-and-Shift](#passo-1-migração-lift-and-shift)
+  - [I. Atividades Necessárias para a Migração](#i-atividades-necessárias-para-a-migração)
+  - [II. Ferramentas Utilizadas](#ii-ferramentas-utilizadas)
+  - [III. Diagrama da Infraestrutura na AWS](#iii-diagrama-da-infraestrutura-na-aws)
+  - [IV. Requisitos de Segurança](#iv-requisitos-de-segurança)
+  - [V. Processo de Backup](#v-processo-de-backup)
+  - [VI. Custo da Infraestrutura na AWS](#vi-custo-da-infraestrutura-na-aws)
+- [Passo 2. Modernização com Kubernetes](#passo-2-modernização-com-kubernetes)
+  - [I. Atividades Necessárias para a Migração](#i-atividades-necessárias-para-a-migração-1)
+  - [II. Ferramentas Utilizadas](#ii-ferramentas-utilizadas-1)
+  - [III. Diagrama da infraestrutura na AWS](#iii-diagrama-da-infraestrutura-na-aws-1)
+  - [IV. Requisitos de Segurança](#iv-requisitos-de-segurança-1)
+  - [V. Processo de Backup](#v-processo-de-backup-1)
+  - [VI. Custo da Infraestrutura na AWS](#vi-custo-da-infraestrutura-na-aws-1)
+- [Conclusão](#conclusão)
+  - [Benefícios Esperados](#benefícios-esperados)
 
 <br>
 
@@ -58,7 +56,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### I. Atividades Necessárias para a Migração
-<hr>
+---
 
 - **Análise e Planejamento**: mapeamento da infraestrutura atual e definição de requisitos;
 - **Configuração do Ambiente AWS**: criação do VPC (Virtual Private Cloud) e configuração de Security Groups;
@@ -72,7 +70,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### II. Ferramentas Utilizadas
-<hr>
+---
 
 - **Serviço de Migração:** AWS Server Migration Service (SMS);
 - **Rede e Segurança:** VPC, AWS WAF, IAM e AWS Shield Standard;
@@ -86,7 +84,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### III. Diagrama da Infraestrutura na AWS
-<hr>
+---
 
 <br>
 
@@ -95,7 +93,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### IV. Requisitos de Segurança
-<hr>
+---
 
 1. **IAM (Identity and Access Management)**:
    - Criação de usuários e roles com permissões mínimas necessárias.
@@ -112,7 +110,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### V. Processo de Backup
-<hr>
+---
 
 1. **Banco de Dados (RDS)**:
    - Backups automáticos diários com retenção de 7 dias.
@@ -128,7 +126,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### VI. Custo da Infraestrutura na AWS
-<hr>
+---
 
 <br>
 
@@ -194,7 +192,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### I. Atividades Necessárias para a Migração
-<hr>
+---
 
 - **Análise e Planejamento:** Levantar requisitos de infraestrutura, segurança e escalabilidade.  
 - **Criação do Cluster EKS:** Provisionar e configurar o Amazon EKS para ambiente de produção e desenvolvimento.  
@@ -210,7 +208,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### II. Ferramentas Utilizadas
-<hr>
+---
 
 - **Orquestração de Contêineres:** Amazon EKS;
 - **Gerenciamento de Contêineres:** Docker e Amazon ECR;
@@ -225,7 +223,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### III. Diagrama da infraestrutura na AWS
-<hr>
+---
 
 <br>
 
@@ -234,7 +232,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### IV. Requisitos de Segurança 
-<hr>
+---
 
 - **Controle de Acesso:** IAM com permissões mínimas necessárias para cada serviço.  
 - **Proteção Contra Ataques:** AWS WAF para filtragem de tráfego malicioso, AWS Shield contra DDoS.  
@@ -247,7 +245,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### V. Processo de Backup
-<hr>
+---
 
 - **Banco de Dados:** Snapshots automáticos no Amazon RDS com retenção configurável.  
 - **Armazenamento de Objetos:** Amazon S3 versionado e com políticas de ciclo de vida.  
@@ -257,7 +255,7 @@ Terceira atividade prática da trilha de **DevSecOps** do programa de bolsas da 
 <br>
 
 ### VI. Custo da Infraestrutura na AWS
-<hr>
+---
 
 <br>
 
